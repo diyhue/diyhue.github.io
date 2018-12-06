@@ -1,3 +1,5 @@
 theme: jekyll-theme-slate
 title: Welcome to diyHue!
 description: The open-source alternative to building and controlling your own Hue-like bulbs, strips, lights, and devices!
+github:
+  repository_url: https://github.com/diyHue/diyHue
