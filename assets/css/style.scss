@@ -1,0 +1,13 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#project_logo {
+  float: left;
+  width: 136px;
+  @media screen and (max-width: 600) {
+    width: 100%;
+    float: none;
+  }
+}
