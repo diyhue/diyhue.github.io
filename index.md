@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
+## Welcome to diyHue
 
-You can use the [editor on GitHub](https://github.com/diyhue/diyhue.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This project emulates a Philips Hue Bridge that is able to control ZigBee lights (using Raspbee module, original Hue Bridge or IKEA Tradfri Gateway), Mi-Light bulbs (using MiLight Hub), Neopixel strips (WS2812B and SK6812) and any cheap ESP8266 based bulb by replacing the firmware with a custom one. It is written in python and will run on all small devices such as the RaspberryPi. Arduino sketches are provided for the Hue Dimmer Switch, Hue Tap Switch and Hue Motion Sensor. Lights are two-way synchronized so any change made from original Philips/Tradfri sensors and switches will also be applied to the bridge emulator.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Working HUE futures:
+  - Control lights (all functions)
+  - Control groups (all functions)
+  - Scenes (all functions)
+  - Routines
+  - Wake up
+  - Go to sleep
+  - Switches (custom esp8266 switches)
+  - Autodiscover lights
+  - Hue entertainment
 
-### Markdown
+## Working devices and applications:
+  - Amazon Alexa (control only the lights)
+  - Logitech Harmony
+  - Tradfri Gateway
+  - Hue Bridge (original + other emulators)
+  - Home Assistant
+  - Domoticz
+  - Openhab
+  - Philips Ambilight TV's 
+  - Kodi Hue Ambilight
+  - Jeedom
+  - Hue Sync for PC
+  
+## Working smartphone applications:
+  - Hue (official application)
+  - [Hue Essentials](https://play.google.com/store/apps/details?id=com.superthomaslab.hueessentials) - recommended
+  - hueManic
+  - OnSwitch
+  - HueSwitcher
+  - LampShade
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Supported lights:
+  - WS2812B and SK6812 smart led strips
+  - MiLight
+  - Yeelight
+  - LYT8266
+  - Phillips Hue
+  - Ikea Tradfri
+  - Pwm RGB-CCT
+  - Pwm RGBW
+  - Pwm RGB
+  - Pwm CCT
+  - Pwm Dimming (up to 6 lights for every esp8266)
+  - On/Off plugs/lights (up to 6 lights for every esp8266)
+  - On/Off 433Mhz devices (multiple devices for every esp8266)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/diyhue/diyhue.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Not working:
+  - Remote API (Will likely never work)
+  - Home & Away future from Hue app (require remote api)
+  - Google Home (require remote api)
+  - Eneco Toon (very likely it use cloud service detection)
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with diyHue? Check out our [documentation](https://github.com/diyhue/diyHue/wiki) or [join us on slack](https://slackinvite.squishedmooo.com/) and we’ll help you sort it out.
