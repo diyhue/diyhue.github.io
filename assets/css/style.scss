@@ -4,10 +4,18 @@
 @import "{{ site.theme }}";
 
 #project_logo {
+  text-align: center;
+  padding: 20px;
   float: left;
   width: 136px;
   @media screen and (max-width: 600px) {
     width: 100%;
     float: none;
+	padding: 10px;
+  }
+}
+#project_header_text {
+  @media screen and (max-width: 600px) {
+	text-align: center;
   }
 }

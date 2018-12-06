@@ -45,9 +45,11 @@
             <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
           {% endif %}
 
-		  <div id="project_logo" style="text-align: center; float: left; padding: 20px"><img src="{{ site.url }}/assets/icon/diyHue.png" height="96" width="96" /></div>
-          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+		  <div id="project_logo"><img src="{{ site.url }}/assets/icon/diyHue.png" height="96" width="96" /></div>
+          <div id="project_header_text">
+			  <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+			  <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+		  </div>
 
           {% if site.show_downloads %}
             <section id="downloads">
